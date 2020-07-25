@@ -145,6 +145,12 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-here</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -175,6 +181,8 @@ Error message and password prompt
 
 <li>$:/state/tab--1498284803</li>
 
+<li>$:/state/tab--1835380119</li>
+
 <li>$:/state/tab-1163638994</li>
 
 <li>$:/state/tab-1319071802</li>
@@ -190,6 +198,8 @@ Error message and password prompt
 <li>$:/state/tab/moresidebar-1850697562</li>
 
 <li>$:/state/tab/sidebar--595412856</li>
+
+<li>$:/state/toc/Contents-Advice-1843068618</li>
 
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
@@ -207,9 +217,13 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>$:/view</li>
+
 <li>Advice</li>
 
 <li>All</li>
+
+<li>Contents</li>
 
 <li>hello</li>
 
@@ -222,6 +236,8 @@ Error message and password prompt
 <li>Recipes</li>
 
 <li>Sturgeon's law</li>
+
+<li>test</li>
 
 <li>test save</li>
 
@@ -247,6 +263,15 @@ Error message and password prompt
 <pre>no</pre>
 </div>
 <div created="20200725043834740" modified="20200725043834740" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<pre>show</pre>
+</div>
+<div created="20200725044357752" modified="20200725044358485" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
+<pre>hide</pre>
+</div>
+<div created="20200725044409609" modified="20200725044417785" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
+<pre>hide</pre>
+</div>
+<div created="20200725045045735" modified="20200725045045735" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-here">
 <pre>show</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
@@ -9662,7 +9687,7 @@ Error message and password prompt
 <div created="20200723113959978" modified="20200723114011872" title="$:/state/importpreviewtype">
 <pre>$:/core/ui/ImportPreviews/Text</pre>
 </div>
-<div created="20200725042858975" modified="20200725042900804" title="$:/state/showeditpreview">
+<div created="20200725042858975" modified="20200725045158798" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
 <div created="20200725043052352" modified="20200725043052352" title="$:/state/tab--1371304472">
@@ -9671,8 +9696,11 @@ Error message and password prompt
 <div created="20200723115401731" modified="20200723115401731" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/Standard</pre>
 </div>
-<div created="20200723114512767" modified="20200723114513734" title="$:/state/tab-1163638994">
-<pre>$:/core/ui/MoreSideBar/Plugins/Theme</pre>
+<div created="20200725045040118" modified="20200725045041989" title="$:/state/tab--1835380119">
+<pre>$:/core/ui/TiddlerInfo/Tools</pre>
+</div>
+<div created="20200723114512767" modified="20200725044205924" title="$:/state/tab-1163638994">
+<pre>$:/core/ui/MoreSideBar/Plugins/Plugins</pre>
 </div>
 <div created="20200725042838124" modified="20200725042838124" title="$:/state/tab-1319071802">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
@@ -9689,11 +9717,14 @@ Error message and password prompt
 <div created="20200725033610982" modified="20200725033627148" title="$:/state/tab-370012239">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
 </div>
-<div created="20200723114511720" modified="20200725034355161" title="$:/state/tab/moresidebar-1850697562">
-<pre>$:/core/ui/MoreSideBar/All</pre>
+<div created="20200723114511720" modified="20200725045224358" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20200723113655040" modified="20200725043833692" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Tools</pre>
+<div created="20200723113655040" modified="20200725045241858" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
+</div>
+<div created="20200725045204458" modified="20200725045204458" title="$:/state/toc/Contents-Advice-1843068618">
+<pre>open</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
@@ -9762,7 +9793,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200723115238278" modified="20200725044056134" title="$:/temp/NewTagName">
+<div created="20200723115238278" modified="20200725044507372" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
 <div created="20200723115307577" modified="20200725033729687" title="$:/temp/search">
@@ -9877,14 +9908,24 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200725044031527" modified="20200725044036138" title="Advice">
-<pre>&lt;&lt;list-links &quot;[tag[advice]]&quot;&gt;&gt;
+<div created="20200725044413275" modified="20200725044416711" title="$:/view">
+<pre>classic</pre>
+</div>
+<div created="20200725044031527" modified="20200725045257453" tags="Contents" title="Advice">
+<pre>&lt;&lt;list-links &quot;[tag[Advice]]&quot;&gt;&gt;
 
 [[Home]]</pre>
 </div>
 <div created="20200725043721532" modified="20200725043756247" tags="" title="All">
 <pre>All Links
 &lt;&lt;list-links &quot; [!is[system]]&quot;&gt;&gt;</pre>
+</div>
+<div caption="Contents" created="20200725044457412" list-after="$:/core/ui/SideBar/Open" modified="20200725045151064" tags="$:/tags/SideBar" title="Contents">
+<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+
+&lt;&lt;toc-selective-expandable 'Contents'&gt;&gt;
+
+&lt;/div&gt;</pre>
 </div>
 <div created="20200723121158006" modified="20200723121202920" tags="" title="hello">
 <pre>hi there</pre>
@@ -9914,6 +9955,9 @@ https://www.youtube.com/watch?v=KJMekwILAJo</pre>
 <pre>Ninety percent of everything is crap
 - Theodore Sturgeon</pre>
 </div>
+<div created="20200725045153185" modified="20200725045203100" tags="Advice" title="test">
+<pre>test contents</pre>
+</div>
 <div created="20200723104824636" modified="20200723115530747" tags="recipe" title="test save">
 <pre></pre>
 </div>
@@ -9933,7 +9977,7 @@ Robert P. George
 https://twitter.com/McCormickProf/status/1278529694355292161
 https://threader.app/thread/1278529694355292161</pre>
 </div>
-<div created="20200725042431401" modified="20200725044056905" tags="[[paul graham]] advice" title="Writing Tip">
+<div created="20200725042431401" modified="20200725045221613" tags="[[paul graham]] Advice" title="Writing Tip">
 <pre>Useful writing tells people something true and important that they didn't already know, and tells them as unequivocally as possible.
 
 Notice these are all a matter of degree. For example, you can't expect an idea to be novel to everyone. Any insight that you have will probably have already been had by at least one of the world's 7 billion people. But it's sufficient if an idea is novel to a lot of readers.
