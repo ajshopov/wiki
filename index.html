@@ -143,6 +143,8 @@ Error message and password prompt
 
 <li>$:/config/AutoSave</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -205,6 +207,10 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>Advice</li>
+
+<li>All</li>
+
 <li>hello</li>
 
 <li>Home</li>
@@ -239,6 +245,9 @@ Error message and password prompt
 <div id="storeArea" style="display:none;">
 <div created="20200723121458533" modified="20200723121458533" title="$:/config/AutoSave">
 <pre>no</pre>
+</div>
+<div created="20200725043834740" modified="20200725043834740" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<pre>show</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
 <pre>{
@@ -9613,9 +9622,8 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200723095255122" modified="20200724234211708" title="$:/DefaultTiddlers">
-<pre>[[New Vaccine History]]
-[[Recipes]]</pre>
+<div created="20200723095255122" modified="20200725043850066" title="$:/DefaultTiddlers">
+<pre>[[Home]]</pre>
 </div>
 <div created="20200723095321183" modified="20200723095323944" title="$:/GitHub/Filename">
 <pre>index.html</pre>
@@ -9634,7 +9642,7 @@ Error message and password prompt
     &quot;tiddlers&quot;: {
         &quot;Untitled&quot;: {
             &quot;title&quot;: &quot;Untitled&quot;,
-            &quot;text&quot;: &quot;&lt;&lt;list-links \&quot;[tag[recipe]]\&quot;&gt;&gt;&quot;
+            &quot;text&quot;: &quot;All Links\r\n&lt;&lt;list-links \&quot; [!is[system]]\&quot;&gt;&gt;&quot;
         }
     }
 }</pre>
@@ -9672,7 +9680,7 @@ Error message and password prompt
 <div created="20200725033557403" modified="20200725033603729" title="$:/state/tab-1335562222">
 <pre>$:/core/ui/TiddlerInfo/Advanced</pre>
 </div>
-<div created="20200723095304272" modified="20200723121502105" title="$:/state/tab-1749438307">
+<div created="20200723095304272" modified="20200725043844503" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20200723095306405" modified="20200723121422935" title="$:/state/tab-2065006209">
@@ -9684,13 +9692,13 @@ Error message and password prompt
 <div created="20200723114511720" modified="20200725034355161" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20200723113655040" modified="20200725034453119" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Recent</pre>
+<div created="20200723113655040" modified="20200725043833692" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200725000014824" list="[[Writing Tip]] Home Recipes" modified="20200725034043816" title="$:/StoryList">
+<div list="Home" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200723115340068" modified="20200723115349355" title="$:/temp/advancedsearch">
@@ -9754,7 +9762,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200723115238278" modified="20200725042447829" title="$:/temp/NewTagName">
+<div created="20200723115238278" modified="20200725044056134" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
 <div created="20200723115307577" modified="20200725033729687" title="$:/temp/search">
@@ -9869,14 +9877,23 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20200725044031527" modified="20200725044036138" title="Advice">
+<pre>&lt;&lt;list-links &quot;[tag[advice]]&quot;&gt;&gt;
+
+[[Home]]</pre>
+</div>
+<div created="20200725043721532" modified="20200725043756247" tags="" title="All">
+<pre>All Links
+&lt;&lt;list-links &quot; [!is[system]]&quot;&gt;&gt;</pre>
+</div>
 <div created="20200723121158006" modified="20200723121202920" tags="" title="hello">
 <pre>hi there</pre>
 </div>
-<div created="20200725033150935" modified="20200725043653543" tags="" title="Home">
-<pre>
+<div created="20200725033150935" modified="20200725044009937" tags="" title="Home">
+<pre>View [[All]]
 
-All Links
-&lt;&lt;list-links &quot; [!is[system]]&quot;&gt;&gt;</pre>
+* [[Recipes]]
+* [[Advice]]</pre>
 </div>
 <div created="20200723113657136" modified="20200723115253061" tags="recipe" title="new note">
 <pre></pre>
@@ -9888,7 +9905,7 @@ Merck CEO Ken Frazier
 
 https://www.youtube.com/watch?v=KJMekwILAJo</pre>
 </div>
-<div created="20200723115535321" modified="20200725043125207" tags="" title="Recipes">
+<div created="20200723115535321" modified="20200725044040851" tags="" title="Recipes">
 <pre>&lt;&lt;list-links &quot;[tag[recipe]]&quot;&gt;&gt;
 
 [[Home]]</pre>
@@ -9916,7 +9933,7 @@ Robert P. George
 https://twitter.com/McCormickProf/status/1278529694355292161
 https://threader.app/thread/1278529694355292161</pre>
 </div>
-<div created="20200725042431401" modified="20200725042917900" tags="[[paul graham]]" title="Writing Tip">
+<div created="20200725042431401" modified="20200725044056905" tags="[[paul graham]] advice" title="Writing Tip">
 <pre>Useful writing tells people something true and important that they didn't already know, and tells them as unequivocally as possible.
 
 Notice these are all a matter of degree. For example, you can't expect an idea to be novel to everyone. Any insight that you have will probably have already been had by at least one of the world's 7 billion people. But it's sufficient if an idea is novel to a lot of readers.
